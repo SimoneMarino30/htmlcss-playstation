@@ -4,23 +4,73 @@ body {
     /* background-color: red; */
 }
 
-/* Header container-fluid */
+/* HEADER container-fluid */
 .header {
     /* border: 2px dashed blueviolet; */
-    min-height: 80px;
+    /* min-height: 80px; */
 }
 
-/* Nav row */
 .row {
-    border: 2px dashed palevioletred;
+    /* border: 5px dashed black; */
 }
+
+.col-6 {
+    border: 3px dashed yellowgreen;
+}
+
+.col-sm-4 {
+    /* border: 3px dashed blue; */
+}
+
+/* NAV row */
+
 
 .upper-nav {
-    border: 1px dashed yellowgreen;
-    height: 2.5rem;
+    /* border: 3px dashed yellowgreen; */
+    height: 5vh;
+    min-width: 100%;
 }
 
 .bottom-nav {
-    border: 1px dashed blue;
-    height: 5rem;
+    /* border: 3px dashed blue; */
+    min-height: 10vh;
+
+}
+
+/* MAIN container-fluid */
+
+.jumbotron-upper {
+    height: 77vh;
+    /* min-width: 100%; */
+    padding-top: 35vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px dashed blue; */
+}
+
+.card {
+    border: 2px dashed red;
+    background-color: transparent;
+    color: #eee;
+}
+
+.card-body {
+    /* border: 2px dashed blue; */
+}
+
+.img-box {
+    width: 80%;
+    /* border: 2px dashed yellowgreen; */
+}
+
+.jumbotron-bottom {
+    border: 3px dashed orange;
+}
+
+.jumbo-img-box {
+    width: 100%;
+
+    border: 3px dashed lightseagreen;
 }
