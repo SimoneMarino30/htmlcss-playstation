@@ -1,0 +1,26 @@
+/* DEBUG */
+
+body {
+    /* background-color: red; */
+}
+
+/* Header container-fluid */
+.header {
+    /* border: 2px dashed blueviolet; */
+    min-height: 80px;
+}
+
+/* Nav row */
+.row {
+    border: 2px dashed palevioletred;
+}
+
+.upper-nav {
+    border: 1px dashed yellowgreen;
+    height: 2.5rem;
+}
+
+.bottom-nav {
+    border: 1px dashed blue;
+    height: 5rem;
+}
