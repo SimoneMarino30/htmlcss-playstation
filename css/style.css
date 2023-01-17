@@ -10,14 +10,15 @@ body {
     /* min-height: 80px; */
 }
 
-.container {
+/* .container {
     border: 3px dashed yellowgreen;
-}
+} */
 
 .debug {
-    min-height: 200px;
+    /* min-height: 200px; */
     background-color: salmon;
     border: 1px dashed black;
+    /* width: 40%; */
 }
 
 /* NAV row */
@@ -35,13 +36,13 @@ body {
 
 }
 
-/* MAIN container-fluid */
+/* MAIN */
 
 /* UPPER JUMBO */
 .jumbotron-upper {
     height: 77vh;
     /* min-width: 100%; */
-    padding-top: 35vh;
+    padding-top: 22vh;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,52 +50,174 @@ body {
     /* border: 2px dashed blue; */
 }
 
-.card.jumbo {
-    border: 2px dashed red;
-    background-color: transparent;
-    color: #eee;
+
+.title-img-box>img {
+    width: 50%;
+    /* border: 2px dashed yellowgreen; */
 }
 
-
-.img-box {
-    width: 80%;
-    /* border: 2px dashed yellowgreen; */
+.card-text {
+    width: 40%;
+    border: 2px dashed yellowgreen;
 }
 
 /* BOTTOM JUMBO */
 
-.jumbotron-bottom {
+#jumbotron-bottom {
     /* border: 3px dashed orange; */
 }
 
 .jumbo-img-box {
     width: 100%;
+    /* border-radius: 10px; */
+}
 
-    /* border: 3px dashed lightseagreen; */
+img {}
+
+.jumbo-img-box>.jumbo-thumb {
+    padding: .25rem;
+    border-radius: 10px;
 }
 
 /* NO LIMITS SECTION */
-.limits {
-    min-height: 200px;
-    background-color: salmon;
 
-    border: 1px dashed black;
+.console-text {
+    padding-top: 10rem;
+}
+
+.no-limits-thumb {
+    background-color: white;
+}
+
+.no-limits-img {
+    padding: 1rem;
+}
+
+.no-limits-text {
+    padding: .5rem;
+    color: #6d6c6b;
+    border: 3px dashed lightseagreen;
+}
+
+#jumbotron-small {
+    height: 77vh;
+    /* min-width: 100%; */
+    padding-top: 2vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px dashed blue; */
 }
 
 /* SMALL JUMBO */
-#jumbotron-small {
+
+.text-start {
+    margin-bottom: 3rem;
+}
+
+.card.jumbo,
+.jumbo-small {
+    border: 2px dashed red;
+    background-color: transparent;
+    color: #eee;
+    border: none;
+}
+
+/* #jumbotron-small {
     min-height: 60vh;
     background-color: lightpink;
-}
+
+} */
+
 
 /* NEW RELESE */
 
+#new-release {
+    background-color: #1F1F1F;
+    color: #eee;
+}
+
 .small-jumbo-thumb {
     min-height: 200px;
-    background-color: salmon;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
+}
+
+.text-start {
+    padding-top: 1rem;
+}
+
+/* EXPLORE */
+
+xplore-img-box>img {
+    /* border: 2px dashed yellowgreen; */
+}
+
+.card-title {
+    color: black;
+}
+
+.explore-text {
+    color: #6d6c6b;
+    /* border: 2px dashed yellowgreen; */
 }
 
 /* PS-PLUS */
 
+#ps-plus {
+    height: 100%;
+    background-color: #6d6c6b;
+}
+
+.plus-logo {
+    /* border: 2px dashed green; */
+    width: 70%;
+}
+
+.plus-column-up {
+    margin: auto 0;
+    color: #eee;
+    /* background-color: blueviolet; */
+}
+
+.plus-img {
+    /* border: 2px dashed red; */
+}
+
 /* OFFERS */
+
+/* SOCIAL */
+
+.social-logo {
+    /* border: 2px dashed blueviolet; */
+
+    /* width: 30%; */
+}
+
+.social-logo>img {
+    /* border: 2px dashed yellowgreen; */
+    width: 75%;
+    margin-top: 1rem;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #00439C;
+    color: #eee;
+}
+
+.footer-img>img {
+    height: 5rem;
+    color: #eee;
+    /* border: 2px dashed yellowgreen; */
+}
+
+.foot-list {
+    list-style: none;
+}
+
+.bottom-footer>img {
+    /* border: 2px dashed yellowgreen; */
+    width: 20%;
+}
