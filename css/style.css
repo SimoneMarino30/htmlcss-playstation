@@ -10,16 +10,14 @@ body {
     /* min-height: 80px; */
 }
 
-.row {
-    /* border: 5px dashed black; */
-}
-
-.col-6 {
+.container {
     border: 3px dashed yellowgreen;
 }
 
-.col-sm-4 {
-    /* border: 3px dashed blue; */
+.debug {
+    min-height: 200px;
+    background-color: salmon;
+    border: 1px dashed black;
 }
 
 /* NAV row */
@@ -39,6 +37,7 @@ body {
 
 /* MAIN container-fluid */
 
+/* UPPER JUMBO */
 .jumbotron-upper {
     height: 77vh;
     /* min-width: 100%; */
@@ -50,27 +49,52 @@ body {
     /* border: 2px dashed blue; */
 }
 
-.card {
+.card.jumbo {
     border: 2px dashed red;
     background-color: transparent;
     color: #eee;
 }
 
-.card-body {
-    /* border: 2px dashed blue; */
-}
 
 .img-box {
     width: 80%;
     /* border: 2px dashed yellowgreen; */
 }
 
+/* BOTTOM JUMBO */
+
 .jumbotron-bottom {
-    border: 3px dashed orange;
+    /* border: 3px dashed orange; */
 }
 
 .jumbo-img-box {
     width: 100%;
 
-    border: 3px dashed lightseagreen;
+    /* border: 3px dashed lightseagreen; */
 }
+
+/* NO LIMITS SECTION */
+.limits {
+    min-height: 200px;
+    background-color: salmon;
+
+    border: 1px dashed black;
+}
+
+/* SMALL JUMBO */
+#jumbotron-small {
+    min-height: 60vh;
+    background-color: lightpink;
+}
+
+/* NEW RELESE */
+
+.small-jumbo-thumb {
+    min-height: 200px;
+    background-color: salmon;
+    border: 1px dashed black;
+}
+
+/* PS-PLUS */
+
+/* OFFERS */
