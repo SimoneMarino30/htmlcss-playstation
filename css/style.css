@@ -1,82 +1,47 @@
-/* DEBUG */
+/* FONT */
 
 body {
-    /* background-color: red; */
+    font-family: 'Mulish', sans-serif;
 }
 
-/* HEADER container-fluid */
-.header {
-    /* border: 2px dashed blueviolet; */
-    /* min-height: 80px; */
-}
-
-/* .container {
-    border: 3px dashed yellowgreen;
-} */
-
-.debug {
-    /* min-height: 200px; */
-    background-color: salmon;
-    border: 1px dashed black;
-    /* width: 40%; */
-}
-
-/* NAV row */
-
+/* NAV */
 
 .upper-nav {
-    /* border: 3px dashed yellowgreen; */
     height: 5vh;
     min-width: 100%;
 }
 
 .bottom-nav {
-    /* border: 3px dashed blue; */
     min-height: 10vh;
+}
 
+.nav-item.dropdown {
+    color: #1F1F1F;
+    font-weight: 600;
 }
 
 /* MAIN */
 
 /* UPPER JUMBO */
+
 .jumbotron-upper {
     height: 77vh;
-    /* min-width: 100%; */
     padding-top: 22vh;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* border: 2px dashed blue; */
-}
-
-
-.title-img-box>img {
-    width: 50%;
-    /* border: 2px dashed yellowgreen; */
 }
 
 .card-text {
-    width: 40%;
-    border: 2px dashed yellowgreen;
+    width: 50%;
 }
 
 /* BOTTOM JUMBO */
 
-#jumbotron-bottom {
-    /* border: 3px dashed orange; */
-}
-
-.jumbo-img-box {
-    width: 100%;
-    /* border-radius: 10px; */
-}
-
-img {}
-
 .jumbo-img-box>.jumbo-thumb {
     padding: .25rem;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* NO LIMITS SECTION */
@@ -94,42 +59,35 @@ img {}
 }
 
 .no-limits-text {
-    padding: .5rem;
     color: #6d6c6b;
-    border: 3px dashed lightseagreen;
 }
+
+/* SMALL JUMBO */
 
 #jumbotron-small {
     height: 77vh;
-    /* min-width: 100%; */
     padding-top: 2vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* border: 2px dashed blue; */
 }
 
-/* SMALL JUMBO */
-
-.text-start {
-    margin-bottom: 3rem;
+.small-jumbo-thumb {
+    min-height: 200px;
 }
 
-.card.jumbo,
+.small-jumbo-thumb>img {
+    border-radius: 20px;
+}
+
+/* card di testo x entrambi i Jumbo */
+.jumbo,
 .jumbo-small {
-    border: 2px dashed red;
     background-color: transparent;
     color: #eee;
     border: none;
 }
-
-/* #jumbotron-small {
-    min-height: 60vh;
-    background-color: lightpink;
-
-} */
-
 
 /* NEW RELESE */
 
@@ -138,67 +96,47 @@ img {}
     color: #eee;
 }
 
-.small-jumbo-thumb {
-    min-height: 200px;
-    /* border: 1px dashed black; */
-}
-
 .text-start {
-    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 /* EXPLORE */
 
-xplore-img-box>img {
-    /* border: 2px dashed yellowgreen; */
-}
-
-.card-title {
-    color: black;
-}
-
 .explore-text {
+    font-weight: 500;
     color: #6d6c6b;
-    /* border: 2px dashed yellowgreen; */
 }
 
 /* PS-PLUS */
 
 #ps-plus {
-    height: 100%;
-    background-color: #6d6c6b;
-}
-
-.plus-logo {
-    /* border: 2px dashed green; */
-    width: 70%;
+    min-height: 15rem;
+    background-color: #BEBCBB;
 }
 
 .plus-column-up {
     margin: auto 0;
     color: #eee;
-    /* background-color: blueviolet; */
-}
-
-.plus-img {
-    /* border: 2px dashed red; */
 }
 
 /* OFFERS */
 
+/* PS-NOW */
+
+#ps-now {
+    min-height: 20rem;
+    background-color: #161C3B;
+}
+
 /* SOCIAL */
 
-.social-logo {
-    /* border: 2px dashed blueviolet; */
-
-    /* width: 30%; */
-}
-
 .social-logo>img {
-    /* border: 2px dashed yellowgreen; */
-    width: 75%;
+    max-width: 100%;
     margin-top: 1rem;
 }
+
 
 /* FOOTER */
 
@@ -210,7 +148,6 @@ xplore-img-box>img {
 .footer-img>img {
     height: 5rem;
     color: #eee;
-    /* border: 2px dashed yellowgreen; */
 }
 
 .foot-list {
@@ -218,6 +155,5 @@ xplore-img-box>img {
 }
 
 .bottom-footer>img {
-    /* border: 2px dashed yellowgreen; */
     width: 20%;
 }
